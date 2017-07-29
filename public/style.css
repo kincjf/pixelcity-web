@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*여기부터 클래스는 만듬*/
+
+.backg {
+  background-image: url("../../image/back.JPG");
+}
+
+.cleartop{
+  margin-top: 80px;
+}
+
+.logo img {
+  width:288px;
+}
+
+.bottom_container{
+  position: relative;
+  height: 100px;
+}
+.bottom_logo{
+  position: absolute;
+  left: 33px;
+  bottom:5px;
+}
+
+.bottom_logo img{
+  height:30px;
+}
+
+/* 여기 아래로 기존에 있던거 */
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+#user-info {
+  border: 1px solid #CCC;
+  clear: both;
+  margin: 0 auto 20px;
+  max-width: 400px;
+  padding: 10px;
+  text-align: left;
+}
+
+#photo-container {
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+  width: 80px;
+}
+
+#photo {
+  height: 80px;
+  margin: 0;
+  width: 80px;
+}
+
+@media (max-width: 300px) {
+  #photo-container,
+  #photo {
+    height: 40px;
+    width: 40px;
+  }
+}
